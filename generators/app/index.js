@@ -1,8 +1,8 @@
 'use strict';
-const path = require('path');
-const Generator = require('yeoman-generator');
-const chalk = require('chalk');
-const yosay = require('yosay');
+var path = require('path');
+var Generator = require('yeoman-generator');
+var chalk = require('chalk');
+var yosay = require('yosay');
 
 module.exports = class extends Generator {
   constructor(args, options) {
@@ -18,7 +18,7 @@ module.exports = class extends Generator {
       'Welcome to the breathtaking ' + chalk.red.bold(this.appname) + ' generator!'
     ));
 
-    const prompts = [{
+    var prompts = [{
       name: 'appname',
       message: 'What is your application name?'
     }, {
@@ -71,7 +71,7 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    const genFiles = [
+    var genFiles = [
       ['app.css', 'css/app.css'],
       ['_README.md', 'README.md'],
       ['_index.html', 'index.html'],
