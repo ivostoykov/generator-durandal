@@ -1,106 +1,38 @@
-# generator-durandal [![Build Status](https://secure.travis-ci.org/spatools/generator-durandal.png?branch=master)](https://travis-ci.org/spatools/generator-durandal) [![NPM version](https://badge.fury.io/js/generator-durandal.png)](http://badge.fury.io/js/generator-durandal)
+# generator-i [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> test
 
-Complete [Yeoman](http://yeoman.io) generator for [Durandal](http://durandaljs.com/) with subgenerators.
+## Installation
 
-## Getting Started
+First, install [Yeoman](http://yeoman.io) and generator-i using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
-### Install Yeoman
-
-This generator need Yeoman to be installed.
-
-```
-$ npm install -g yo
+```bash
+npm install -g yo
+npm install -g generator-i
 ```
 
-### Install Generator
+Then generate your new project:
 
-To install generator-durandal from npm, run:
-
-```
-$ npm install -g generator-durandal
+```bash
+yo i
 ```
 
-Then, initiate the generator:
+## Getting To Know Yeoman
 
-```
-$ yo durandal
-```
-
-Application is ready. Start development using a little HTTP server and live reload:
-
-```
-$ grunt serve
-```
-
-### Getting To Know Yeoman
-
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
-
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
-
-
-## Development
-
-### Build Configurations
-
-Some build configurations are already defined using [Grunt](http://gruntjs.com).
-
-#### build
-
-Use build configuration to build your application to production.
-It concatenates and minify your javascript, css, html and reduces your images' size.
-
-```
-$ grunt build
-```
-
-#### test
-
-Use test configuration to test your application before building.
-It tests your application using [jasmine](https://jasmine.github.io/) and [phantomjs](http://phantomjs.org/).
-
-```
-$ grunt test
-```
-
-#### serve
-
-Use serve configuration to develop your application and test it into browser.
-It host your application in a mini HTTP server with live reloading of your assets.
-
-```
-$ grunt serve
-```
-
-#### serve-build
-
-Use serve configuration to develop your application and test it into browser.
-It host your application in a mini HTTP server with live reloading of your assets.
-
-```
-$ grunt serve-build
-```
-
-#### default
-
-Use default configuration to build and test your application.
-It lints, builds and tests your application.
-
-```
-$ grunt
-```
-
-### Sub Generators
-
-#### ViewModel
-
-You can create a viewmodel using a yeoman subgenerator.
-It allows to create a viewmodel, its view and append it to router.
-
-```
-$ yo durandal:viewmodel
-```
+ * Yeoman has a heart of gold.
+ * Yeoman is a person with feelings and opinions, but is very easy to work with.
+ * Yeoman can be too opinionated at times but is easily convinced not to be.
+ * Feel free to [learn more about Yeoman](http://yeoman.io/).
 
 ## License
 
-[MIT License](http://en.wikipedia.org/wiki/MIT_License)
+ISC © [ivo]()
+
+
+[npm-image]: https://badge.fury.io/js/generator-i.svg
+[npm-url]: https://npmjs.org/package/generator-i
+[travis-image]: https://travis-ci.org//generator-i.svg?branch=master
+[travis-url]: https://travis-ci.org//generator-i
+[daviddm-image]: https://david-dm.org//generator-i.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org//generator-i
+[coveralls-image]: https://coveralls.io/repos//generator-i/badge.svg
+[coveralls-url]: https://coveralls.io/r//generator-i

@@ -2,8 +2,12 @@ node_modules/
 temp/
 obj/
 bin/
+.vscode/
+.vs/
 
 *.suo
 *.user
 *.csproj
 *.sln
+.yo-rc.json
+package-lock.json
