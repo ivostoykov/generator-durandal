@@ -3,7 +3,7 @@
 'use strict';
 
 var path = require('path');
-const assert = require('assert');
+var assert = require('assert');
 
 describe('durandal generator', function () {
   it('load application', function () {
