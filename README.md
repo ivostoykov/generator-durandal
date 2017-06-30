@@ -1,4 +1,5 @@
-# generator-i [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-durandal [![Build Status](https://secure.travis-ci.org/spatools/generator-durandal.png?branch=master)](https://travis-ci.org/spatools/generator-durandal) [![NPM version](https://badge.fury.io/js/generator-durandal.png)](http://badge.fury.io/js/generator-durandal)
+
 Complete [Yeoman](http://yeoman.io) generator for [Durandal](http://durandaljs.com/) with subgenerators.
 
 ## Getting Started
