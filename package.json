@@ -10,7 +10,7 @@
     "jquery"
   ],
   "homepage": "https://github.com/spatools/generator-durandal",
-  "bugs": "https://github.com/spatools/generator-durandal/issues",
+  "bugs": "https://github.com/ivostoykov/generator-durandal/issues",
   "author": {
     "name": "SPA Tools",
     "email": "spa@somatic.fr",
@@ -24,7 +24,7 @@
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/spatools/generator-durandal.git"
+    "url": "https://github.com/ivostoykov/generator-durandal.git"
   },
   "scripts": {
     "test": "mocha --recursive __tests__"
