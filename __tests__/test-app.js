@@ -18,7 +18,7 @@ describe('testing generator', function () {
   });
 
   it('creates files', function () {
-    const expected = [
+    var expected = [
       // Add files you expect to exist here.
       '.jshintrc',
       '.editorconfig',
