@@ -1,6 +1,6 @@
 # generator-durandal [![Build Status](https://travis-ci.org/ivostoykov/generator-durandal.png?branch=yo200)](https://travis-ci.org/ivostoykov/generator-durandal) [![NPM version](https://badge.fury.io/js/generator-durandal.png)](http://badge.fury.io/js/generator-durandal)
 
-Complete [Yeoman](http://yeoman.io) generator for [Durandal](http://durandaljs.com/) with subgenerators.
+Complete [Yeoman](http://yeoman.io) generator (compliant with version ^1.0.0) for [Durandal](http://durandaljs.com/) with subgenerators.
 
 ## Getting Started
 
